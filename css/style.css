@@ -319,3 +319,268 @@ header nav {
 display: none;
 }
 }
+
+
+
+
+/* TODO------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+:root {
+    --secondary-color:#666;
+    --introduction-span-color:#FF8A56;
+}
+
+* {
+    text-decoration: none;
+    /* outline: 1px solid red */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #08101e;
+}
+
+header {
+    display: flex;
+   
+    justify-content: space-between;
+  
+    align-items: center;
+  
+}
+
+header nav {
+    display: none;
+}
+
+header nav a {
+    color:#ffffff;
+    margin-right: 10px;
+}
+
+.button{
+    background: #3A68B8;
+    color:#fff;
+    width: 151px;
+    height: 58px;
+    padding: 2px 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 auto; 
+    border-radius: 5px;
+}
+
+article{
+    color: #ffffff;
+    opacity: .7;
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+}
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+}
+
+header img{
+    width: 58px;
+    height: 72px
+}
+
+.introduction .intro-left-side p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.share-section .intro-left-side .book {
+    background: #222;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.services-cards img{
+    margin: 0 60px;
+    width: 78px;
+}
+
+.services-cards .card{
+    transition: all .1s ease-in;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #0d1422, #19202d);
+
+}
+
+
+.services-cards{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
+    color: #FFFF;
+}
+
+p{
+    opacity: 0.7;
+    text-align: center;
+    font-size: 16px;
+}
+
+h5{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.share-section .div-right p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.share-section .div-right .book {
+    background: #222;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.share-section .div-right h2 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+   
+}
+
+
+
+
+
+@media(max-width:575px) {
+    .share {
+        max-width: 100%;
+    }
+    
+}
+
+@media(min-width:576px) {
+.share {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+}
+
+@media(min-width:768px) {
+    .share{
+        max-width: 720px;
+        margin: 0 auto;
+    } 
+    
+   
+}
+
+@media(min-width:992px) {
+    .share {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .share-section {
+        display: flex;
+        
+    }
+
+    .share-section .intro-left-side h1 {
+        font-size: 59px;
+        color: #ffffff;
+
+       
+    }
+    .share-section .intro-left-side .h4 {
+        font-size: 42px;
+        color: #ffffff;
+
+       
+    }
+
+    .share-section .intro-left-side {
+        padding: 92px 0;
+    }
+
+    .share-section .intro-right-side {
+        padding-top: 72px;
+    }
+    .share-section .intro-right-side img{
+        width: 592px;
+        height: 528px;
+        margin: -15px;
+    }
+
+    .share-section .last-right img{
+        width: 585px;
+        height: 711px;
+        margin: -25px;
+    }
+    
+   
+}
+
+
+@media(min-width:1200px) {
+    .share {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
