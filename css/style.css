@@ -1,0 +1,288 @@
+:root {
+    --secondary-color:#666;
+    --introduction-span-color:#FF8A56;
+}
+
+
+* {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Mobile First */
+header {
+    display: flex;
+    /* TODO display: flex; sətir boyunca bizim elementleri düzür */
+
+    justify-content: space-between;
+    /* TODO  justify-content: space-between; img-nav arasına boşluq qoyur */
+
+    align-items: center;
+    /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
+
+
+}
+
+
+header nav {
+    display: none;
+}
+
+header nav a {
+    color:#000;
+    margin-right: 10px;
+}
+
+/*  TODO 576-dan kicik olanda ekstra kicik cihazlar col-12 */
+/*  TODO 576-768-dan kicik olanda   */
+/*  TODO 768-991-dan kicik oplanset col-md */
+/*  TODO 991-1200px noutbuklar  */ 
+/* TODO 1200-1400px pc */
+
+/* TODO Smart tv 1400px-uzu yuxari */
+
+
+
+/* INTRODUCTION START */
+
+.introduction .intro-left-side h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+
+.introduction .intro-left-side h1 span {
+    color: var(--introduction-span-color);
+}
+
+.introduction .intro-left-side p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.introduction .intro-left-side .book {
+    background: #222;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+
+ 
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+h5:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+p:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+li:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h5{
+    color: #000;
+    font-size: 20px;
+   
+}
+
+ul:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a:hover{
+    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.logoipsumlar{
+    padding: 100px 0;
+   
+}
+
+
+
+.services-cards{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
+    gap: 30px;
+ 
+}
+
+.services-cards .card:hover{
+    -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+-moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+
+.services h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF8A56;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.services h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 54px;
+    letter-spacing: 1px;
+}
+
+.services ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.services-cards .card{
+    transition: all .1s ease-in;
+    padding: 15px;
+    margin-bottom: 100px;
+
+}
+
+.services-cards .card ul li{
+    color: #000;
+    font-size: 16px;
+
+ font-weight: 1000;
+
+}
+
+
+
+@media(max-width:575px) {
+    .parentdiv {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:576px) {
+.parentdiv {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:768px) {
+    .parentdiv {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(min-width:992px) {
+    .parentdiv {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .introduction {
+        display: flex;
+        
+    }
+
+    .introduction .intro-left-side h1 {
+        font-size: 72px;
+
+       
+    }
+
+    .introduction .intro-left-side {
+        padding: 92px 0;
+    }
+
+    .introduction .intro-right-side {
+        padding-top: 72px;
+    }
+}
+
+@media(min-width:1200px) {
+    .parentdiv {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px) {
+header nav {
+    display: block;
+}
+
+.fa-bars {
+display: none;
+}
+}
