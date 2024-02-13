@@ -275,7 +275,7 @@ margin-top: 0 auto;
     }
 
     .intro-section .div-right h2 {
-        font-size: 59px;
+        font-size: 40px;
         color: #ffffff;
         
 
@@ -284,7 +284,7 @@ margin-top: 0 auto;
     }
 
     .intro-section .div-right {
-        padding: 92px 0;
+        padding: 52px 45px;
     }
 
     .intro-section .div-left {
@@ -330,88 +330,25 @@ display: none;
 
 
 
-:root {
-    --secondary-color:#666;
-    --introduction-span-color:#FF8A56;
-}
-
-* {
-    text-decoration: none;
-    /* outline: 1px solid red */
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #08101e;
-}
-
-header {
-    display: flex;
-   
-    justify-content: space-between;
-  
-    align-items: center;
-  
-}
-
-header nav {
-    display: none;
-}
-
-header nav a {
-    color:#ffffff;
-    margin-right: 10px;
-}
-
-.button{
-    background: #3A68B8;
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    padding: 2px 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0 auto; 
+.share .services-card .cards{
+    transition: all .1s ease-in;
+    padding: 16px;
+    margin: -26px 14px;
+    margin-bottom: 100px;
     border-radius: 5px;
-}
-
-article{
     color: #ffffff;
-    opacity: .7;
 }
 
-.h3{
-    display: flex;
-    justify-content: space-between;
-    color: #3A68B8;
-    font-weight: 600;
-    font-size: 22px;
-    align-items: center;
-}
 
-h3{
-    color: #3A68B8;
-    font-size: 18px;
-}
 
-header img{
-    width: 58px;
-    height: 72px
-}
-
-.introduction .intro-left-side p {
+.share-section .left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-.book-a-call {
-    margin-top: 40px;
-}
 
-.share-section .intro-left-side .book {
+
+.share-section .left-side .book {
     background: #222;
    
     color:#fff;
@@ -442,24 +379,24 @@ margin-right: 10px;
     font-weight: 100;
 }
 
-.services-cards img{
+.services-card img{
     margin: 0 60px;
     width: 78px;
 }
 
-.services-cards .card{
+.services-card .cards{
     transition: all .1s ease-in;
     padding: 5px;
     margin: 5px;
     margin-bottom: 100px;
     border-radius: 5px;
     color: #ffffff;
-    background: linear-gradient(to bottom, #0d1422, #19202d);
+
 
 }
 
 
-.services-cards{
+.services-card{
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
@@ -472,18 +409,25 @@ p{
     font-size: 16px;
 }
 
-h5{
-    text-align: center;
+h6{
+    
     color: #ffffff;
     font-size: 18px;
 }
 
-.share-section .div-right p {
+.services-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: -90px 3px;
+}
+
+.share-section .right-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-.share-section .div-right .book {
+.share-section .right-side .book {
     background: #222;
    
     color:#fff;
@@ -495,7 +439,7 @@ align-items: center;
 margin-right: 10px;
 }
 
-.share-section .div-right h2 {
+.share-section .right-side h2 {
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
@@ -541,38 +485,28 @@ margin-right: 10px;
         
     }
 
-    .share-section .intro-left-side h1 {
+    .share-section .left-side h1 {
         font-size: 59px;
         color: #ffffff;
 
        
     }
-    .share-section .intro-left-side .h4 {
+    .share-section .left-side .h4 {
         font-size: 42px;
         color: #ffffff;
 
        
     }
 
-    .share-section .intro-left-side {
+    .share-section .left-side {
         padding: 92px 0;
     }
 
-    .share-section .intro-right-side {
+    .share-section .right-side {
         padding-top: 72px;
     }
-    .share-section .intro-right-side img{
-        width: 592px;
-        height: 528px;
-        margin: -15px;
-    }
-
-    .share-section .last-right img{
-        width: 585px;
-        height: 711px;
-        margin: -25px;
-    }
     
+   
    
 }
 
