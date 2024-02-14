@@ -424,6 +424,16 @@ h6{
     margin: 43px 12px;
 }
 
+.h6{
+    color: #FFFF;
+    margin: 20px 13px;
+}
+
+.h5{
+    color: #FFFF;
+    margin: 40px 13px;
+}
+
 .services-card{
     display: flex;
     justify-content: space-around;
