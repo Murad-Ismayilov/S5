@@ -303,8 +303,8 @@ margin-right: 10px;
     background: #3A68B8;
    
     color:#fff;
-    width: 151px;
-    height: 58px;
+    width: 119px;
+    height: 51px;
     padding: 2px 15px;
 display: inline-flex;
 justify-content: center;
@@ -312,6 +312,53 @@ align-items: center;
 margin-top: 0 auto;
     
 }
+
+
+
+
+
+.introduction .intro-right-side img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.introduction .intro-left-side h1{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.intro-section .div-left img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.intro-section .div-right h2{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.introduction .last-right img{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.introduction .intro-left-side h1{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.div img:nth-child(odd){
+    display: none;
+    
+}
+
 
 /* TODO media hissesi ---------------------------------------------------------------------------- */
 
@@ -343,6 +390,25 @@ margin-top: 0 auto;
 }
 
 @media(min-width:768px) {
+
+    header nav {
+        display: block;
+       
+    }
+
+    
+    
+  
+    
+    
+    
+    .fa-bars {
+    display: none;
+    }
+
+    
+
+
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
@@ -355,6 +421,117 @@ margin-top: 0 auto;
         max-width: 720px;
         margin: 0 auto;
     } 
+    /* TODO 1 */
+
+     .introduction {
+        display: flex;
+        
+        
+    }
+
+  
+    .introduction .intro-left-side{
+        padding-top: 70px;
+    }
+
+    .introduction .intro-right-side{
+        padding-top: 70px;
+    }
+
+
+
+    .introduction .intro-left-side h1 {
+        font-size: 28px;
+        color: #ffffff;
+
+       
+    }
+    
+    .introduction .intro-right-side img{
+        width: 379px;
+        height: 358px;
+        margin: -47px 8px;
+        
+     }
+
+     
+
+    
+
+     /* TODO 2 */
+
+     .intro-section {
+        display: flex;
+        
+        
+    }
+
+    
+
+    .intro-section .div-right{
+        padding-top: 4px;
+        margin: -62px 22px;
+    }
+
+    .intro-section .div-left{
+        padding-top: 70px;
+    }
+
+
+
+    .intro-section .div-right h2 {
+        font-size: 29px;
+        color: #ffffff;
+        font-weight: 600;
+        margin: 0 0;
+       
+    }
+    
+    .intro-section .div-left img{
+        width: 390px;
+        height: 550px;
+        margin: -271px 25px 27px 0;
+        
+     }
+
+     /* TODO 3 */
+
+     .introduction {
+        display: flex;
+        
+        
+    }
+
+    
+
+    .introduction .intro-left-side{
+        padding-top: 70px;
+    }
+
+    .introduction .last-right{
+        padding-top: 70px;
+    }
+
+
+
+    .introduction .intro-left-side .h4 {
+        font-size: 23px;
+        color: #ffffff;
+
+       
+    }
+    
+    .introduction .last-right img{
+        width: 474px;
+        height: 483px;
+        margin: -47px 8px;
+        
+     }
+     
+    
+    
+    
+    
 }
 
 @media(min-width:992px) {
@@ -362,9 +539,10 @@ margin-top: 0 auto;
         max-width: 960px;
         margin: 0 auto;
     }
-
+    
     .introduction {
         display: flex;
+        
         
     }
 
@@ -396,7 +574,7 @@ margin-top: 0 auto;
 
     .introduction .last-right img{
         width: 585px;
-        height: 711px;
+        height: 500px;
         margin: -25px;
     }
     
@@ -427,10 +605,11 @@ margin-top: 0 auto;
         padding-top: 72px;;
     }
     .intro-section .div-left img{
-        width: 868px;
+        width: 870px;
         height: 536px;
-        margin: -151px;
-        padding: 0 0 300px 0;
+        margin: -261px -145px;
+        padding: 0 0 371px 0;
+    
     }
     .share {
         max-width: 960px;
@@ -463,6 +642,10 @@ margin-top: 0 auto;
         padding-top: 72px;
     }
     
+    .div img{
+        display: inline !important;
+
+    }
 }
 
 
@@ -481,14 +664,6 @@ margin-top: 0 auto;
     }
 }
 
-@media(min-width:768px) {
-header nav {
-    display: block;
-}
 
-.fa-bars {
-display: none;
-}
-}
 
 
