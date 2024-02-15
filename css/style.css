@@ -104,11 +104,6 @@ margin-right: 10px;
  
 }
 
-.logoipsumlar h6{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 100;
-}
 
 .services-cards img{
     margin: 0 127px;
@@ -401,8 +396,6 @@ margin-top: 0 auto;
 
 }
 
-
-
 @media(min-width:768px) {
 
     header nav {
@@ -571,10 +564,13 @@ margin-top: 0 auto;
      }
  .card{
         display: inline !important;
+    } 
+    .div img{
+        display: inline !important;
+
     }
 }
 
-    
 @media(min-width:992px) {
     .parentdiv {
         max-width: 960px;
@@ -683,16 +679,12 @@ margin-top: 0 auto;
     .share-section .right-side {
         padding-top: 72px;
     }
-    .div img{
-        display: inline !important;
-
-    }
+   
     .card{
         display: inline !important;
 
     }
 }
-
 
 @media(min-width:1200px) {
     .parentdiv {
