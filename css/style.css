@@ -346,8 +346,8 @@ margin-top: 0 auto;
 
 
 
- .services-cards .card:nth-child(1),
-    .services-cards .card:nth-child(2){
+.services-cards .card:nth-child(1),
+.services-cards .card:nth-child(2){
         display: none;
     }
 
@@ -360,6 +360,12 @@ margin-top: 0 auto;
 .div img:nth-child(2){
     display: none;
 }
+
+/* .card-right .cards:nth-child(1),
+.card-right .cards:nth-child(2),
+.card-right .cards:nth-child(3){
+    display: none;
+} */
 
 /* TODO media hissesi ---------------------------------------------------------------------------- */
 
@@ -390,11 +396,7 @@ margin-top: 0 auto;
     max-width: 540px;
     margin: 0 auto;
 }
-.card-right .cards:nth-child(1),
-.card-right .cards:nth-child(2),
-.card-right .cards:nth-child(3){
-    display: none;
-}
+
 
 }
 
@@ -405,9 +407,9 @@ margin-top: 0 auto;
        
     }
 
-    .card-right .cards{
+    /* .card-right .cards{
         margin: -396px -407px 4px 388px;
-    }
+    } */
  
     .right-side{
         display: inline !important;
