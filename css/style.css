@@ -111,14 +111,14 @@ margin-right: 10px;
 }
 
 .services-cards img{
-    margin: 0 60px;
+    margin: 0 127px;
     width: 78px;
 }
 
 .services-cards .card{
     transition: all .1s ease-in;
-    padding: 5px;
-    margin: 5px;
+    padding:  11px 0;
+    margin:  40px 0;
     margin-bottom: 100px;
     border-radius: 5px;
     color: #ffffff;
@@ -295,7 +295,7 @@ margin-right: 10px;
 }
 
 .logoipsumlar{
-    padding: 200px 0;
+    padding: 200px 41px;
    
 }
 
@@ -318,7 +318,7 @@ margin-top: 0 auto;
 
 
 .introduction .intro-right-side img{
-    width: 320px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -331,7 +331,7 @@ margin-top: 0 auto;
 
 
 .intro-section .div-left img{
-    width: 320px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -343,7 +343,7 @@ margin-top: 0 auto;
 }
 
 .introduction .last-right img{
-    width: 320px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -354,10 +354,20 @@ margin-top: 0 auto;
     margin-bottom: 20px;
 }
 
-.div img:nth-child(odd){
+.div img:not(:first-child){
     display: none;
     
 }
+
+.services-cards .card:not(:first-child){
+    display: none;
+}
+
+.right-side{
+    display: none;
+}
+
+
 
 
 /* TODO media hissesi ---------------------------------------------------------------------------- */
@@ -387,7 +397,11 @@ margin-top: 0 auto;
     max-width: 540px;
     margin: 0 auto;
 }
+
+
 }
+
+
 
 @media(min-width:768px) {
 
@@ -395,13 +409,41 @@ margin-top: 0 auto;
         display: block;
        
     }
+   
+     .services-cards .card:nth-child(1),
+    .services-cards .card:nth-child(2){
+        display: none;
+    }
 
+   .right-side{
+    display: inline !important;
+   }
+
+    .share{
+        display: flex;
+        justify-content: space-between;
+    }
+    .services-cards .card{
+        transition: all .1s ease-in;
+        padding:  5px;
+        margin:  5px;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        color: #ffffff;
+        background: linear-gradient(to bottom, #0d1422, #19202d);
     
-    
-  
-    
-    
-    
+    }
+
+    .logoipsumlar{
+        padding: 200px 0;
+       
+    }
+
+    .services-cards img{
+        margin: 0 60px;
+        width: 78px;
+    }
+
     .fa-bars {
     display: none;
     }
@@ -527,13 +569,12 @@ margin-top: 0 auto;
         margin: -47px 8px;
         
      }
-     
-    
-    
-    
-    
+ .card{
+        display: inline !important;
+    }
 }
 
+    
 @media(min-width:992px) {
     .parentdiv {
         max-width: 960px;
@@ -545,6 +586,7 @@ margin-top: 0 auto;
         
         
     }
+  
 
     .introduction .intro-left-side h1 {
         font-size: 59px;
@@ -641,8 +683,11 @@ margin-top: 0 auto;
     .share-section .right-side {
         padding-top: 72px;
     }
-    
     .div img{
+        display: inline !important;
+
+    }
+    .card{
         display: inline !important;
 
     }
