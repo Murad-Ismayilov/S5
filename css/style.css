@@ -390,7 +390,11 @@ margin-top: 0 auto;
     max-width: 540px;
     margin: 0 auto;
 }
-
+.card-right .cards:nth-child(1),
+.card-right .cards:nth-child(2),
+.card-right .cards:nth-child(3){
+    display: none;
+}
 
 }
 
@@ -401,12 +405,15 @@ margin-top: 0 auto;
        
     }
 
+    .card-right .cards{
+        margin: -396px -407px 4px 388px;
+    }
  
-    
+    .right-side{
+        display: inline !important;
+    }
 
-   .right-side{
-    display: inline !important;
-   }
+   
 
     .share{
         display: flex;
@@ -559,6 +566,9 @@ margin-top: 0 auto;
         margin: -47px 8px;
         
      }
+     .share{
+        padding: 86px 0;
+     }
  
     
 }
@@ -574,6 +584,7 @@ margin-top: 0 auto;
         
         
     }
+   
     .div img{
         display: inline !important;
 
