@@ -320,7 +320,6 @@ margin-top: 0 auto;
     margin-bottom: 20px;
 }
 
-
 .intro-section .div-left img{
     width: 300px;
     margin: 0 auto;
@@ -350,9 +349,10 @@ margin-top: 0 auto;
     
 }
 
-.services-cards .card:not(:first-child){
-    display: none;
-}
+ .services-cards .card:nth-child(1),
+    .services-cards .card:nth-child(2){
+        display: none;
+    }
 
 .right-side{
     display: none;
@@ -399,10 +399,7 @@ margin-top: 0 auto;
        
     }
    
-     .services-cards .card:nth-child(1),
-    .services-cards .card:nth-child(2){
-        display: none;
-    }
+    
 
    .right-side{
     display: inline !important;
@@ -559,9 +556,7 @@ margin-top: 0 auto;
         margin: -47px 8px;
         
      }
- .card{
-        display: inline !important;
-    } 
+ 
     .div img{
         display: inline !important;
 
@@ -579,7 +574,9 @@ margin-top: 0 auto;
         
         
     }
-  
+  .card{
+        display: inline !important;
+    } 
 
     .introduction .intro-left-side h1 {
         font-size: 59px;
