@@ -185,6 +185,8 @@ margin-right: 10px;
 .div{
     justify-content: space-between;
     display: flex;
+
+ 
 }
 
 .h1{
@@ -290,7 +292,7 @@ margin-right: 10px;
 }
 
 .logoipsumlar{
-    padding: 200px 41px;
+    padding: 200px 0px;
    
 }
 
@@ -355,17 +357,13 @@ margin-top: 0 auto;
     display: none;
 }
 
-
 .div img:nth-child(1),
 .div img:nth-child(2){
     display: none;
 }
 
-/* .card-right .cards:nth-child(1),
-.card-right .cards:nth-child(2),
-.card-right .cards:nth-child(3){
-    display: none;
-} */
+
+
 
 /* TODO media hissesi ---------------------------------------------------------------------------- */
 
@@ -398,19 +396,23 @@ margin-top: 0 auto;
 }
 
 
+
+
 }
 
 @media(min-width:768px) {
+    
+
+   
 
     header nav {
         display: block;
        
     }
+    
+    
+  
 
-    /* .card-right .cards{
-        margin: -396px -407px 4px 388px;
-    } */
- 
     .right-side{
         display: inline !important;
     }
@@ -571,7 +573,9 @@ margin-top: 0 auto;
      .share{
         padding: 86px 0;
      }
- 
+     
+     
+    
     
 }
 
@@ -586,6 +590,11 @@ margin-top: 0 auto;
         
         
     }
+    .div{
+        justify-content: space-between;
+        display: flex;
+    }
+    
    
     .div img{
         display: inline !important;
