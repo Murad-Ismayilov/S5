@@ -391,33 +391,6 @@ margin-right: 10px;
 
 @media(min-width:768px) {
 
-    
-
-    .right-side{
-        display: inline !important;
-    }
-
-    
-
-    .services-cards .card{
-        transition: all .1s ease-in;
-        padding:  5px;
-        margin:  5px;
-        margin-bottom: 100px;
-        border-radius: 5px;
-        color: #ffffff;
-        background: linear-gradient(to bottom, #0d1422, #19202d);
-    }
-
-    .services-cards img{
-        margin: 0 60px;
-        width: 78px;
-    }
-
-    .fa-bars {
-        display: none;
-    }
-
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
@@ -428,10 +401,18 @@ margin-right: 10px;
         margin: 0 auto;
     }
 
-   .share{
+    .share{
+        padding: 86px 0;
+        display: flex;
+        justify-content: space-between;
         max-width: 720px;
         margin: 0 auto;
-    } 
+    }
+
+     .fa-bars {
+        display: none;
+    }
+
 
 /* TODO 1---------------------------------------------------*/
 
@@ -502,6 +483,21 @@ margin-right: 10px;
         margin: -271px 25px 27px 0;
         
     }
+    
+    .services-cards .card{
+        transition: all .1s ease-in;
+        padding:  5px;
+        margin:  5px;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        color: #ffffff;
+        background: linear-gradient(to bottom, #0d1422, #19202d);
+    }
+
+    .services-cards img{
+        margin: 0 60px;
+        width: 78px;
+    }
 
 /* TODO 3---------------------------------------------------*/
 
@@ -533,12 +529,13 @@ margin-right: 10px;
         
     }
 
-    .share{
-        padding: 86px 0;
-        display: flex;
-        justify-content: space-between;
-    }
     
+
+    .right-side{
+        display: inline !important;
+    }
+     
+
 }
 
 @media(min-width:992px) {
@@ -547,26 +544,28 @@ margin-right: 10px;
         max-width: 960px;
         margin: 0 auto;
     }
-    
-    .introduction {
-        display: flex;
-        
-        
+
+    .entrance {
+        max-width: 960px;
+        margin: 0 auto;
     }
+    
+    .share {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+/* TODO 1--------------------------------------------------------------------- */
 
     .div{
         justify-content: space-between;
         display: flex;
     }
-    
+
     .div img{
         display: inline !important;
 
     }
-
-    .card{
-        display: inline !important;
-    } 
 
     .introduction .intro-left-side h1 {
         font-size: 59px;
@@ -602,10 +601,17 @@ margin-right: 10px;
         margin: -25px;
     }
     
-    .entrance {
-        max-width: 960px;
-        margin: 0 auto;
+    .introduction {
+        display: flex;
     }
+
+    
+
+
+
+
+
+/* TODO 2--------------------------------------------------------------------- */
 
     .intro-section {
         display: flex;
@@ -633,10 +639,7 @@ margin-right: 10px;
     
     }
 
-    .share {
-        max-width: 960px;
-        margin: 0 auto;
-    }
+/* TODO 3------------------------------------------------------------------- */
 
     .share-section {
         display: flex;  
@@ -662,7 +665,11 @@ margin-right: 10px;
    
     .card{
         display: inline !important;
-    }
+    } 
+    
+    .card{
+        display: inline !important;
+    } 
 }
 
 @media(min-width:1200px) {
