@@ -1,5 +1,6 @@
 /* TODO 1----------------------------------------------------------------------------------------------------------------------------------------*/
 
+
 :root {
     --secondary-color:#666;
     --introduction-span-color:#FF8A56;
@@ -96,11 +97,6 @@ margin-right: 10px;
     margin-bottom: 20px;
 }
 
-.introduction .last-right img{
-    width: 300px;
-    margin: 0 auto;
-}
-
 .introduction .intro-left-side h1{
     color: #FFFF;
     font-size: 31px;
@@ -148,7 +144,8 @@ margin-top: 0 auto;
 }
 
 
-/* TODO 2 -------------------------------------------------------------------------------------------------------------------------------------- */
+/* TODO 2----------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 .intro-section .div-right p {
     color:var(--secondary-color);
@@ -227,17 +224,16 @@ h5{
 }
 
 
+/* TODO 3----------------------------------------------------------------------------------------------------------------------------------------*/
 
 
+.introduction .last-right img{
+    width: 300px;
+    margin: 0 auto;
+}
 
 
-
-
-
-
-
-
-
+/* TODO 4-----------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 .share-section .left-side p {
@@ -256,10 +252,6 @@ justify-content: center;
 align-items: center;
 margin-right: 10px;
 }
-
-
-
-
 
 .services-card img{
     margin: 0 60px;
@@ -349,18 +341,6 @@ margin-right: 10px;
    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .right-side{
     display: none;
 }
@@ -376,12 +356,15 @@ margin-right: 10px;
 /* TODO media hissesi ---------------------------------------------------------------------------- */
 
 @media(max-width:575px) {
+
     .parentdiv {
         max-width: 100%;
     }
+
     .entrance {
         max-width: 100%;
     }
+
     .share {
         max-width: 100%;
     }
@@ -409,28 +392,21 @@ margin-right: 10px;
 }
 
 @media(min-width:768px) {
-    
-
-   
 
     header nav {
         display: block;
        
     }
-    
-    
-  
 
     .right-side{
         display: inline !important;
     }
 
-   
-
     .share{
         display: flex;
         justify-content: space-between;
     }
+
     .services-cards .card{
         transition: all .1s ease-in;
         padding:  5px;
@@ -457,22 +433,22 @@ margin-right: 10px;
     display: none;
     }
 
-    
-
-
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
     } 
+
     .entrance {
         max-width: 720px;
         margin: 0 auto;
     }
+
    .share{
         max-width: 720px;
         margin: 0 auto;
     } 
-    /* TODO 1 */
+
+/* TODO 1---------------------------------------------------*/
 
      .introduction {
         display: flex;
@@ -480,7 +456,6 @@ margin-right: 10px;
         
     }
 
-  
     .introduction .intro-left-side{
         padding-top: 70px;
     }
@@ -488,8 +463,6 @@ margin-right: 10px;
     .introduction .intro-right-side{
         padding-top: 70px;
     }
-
-
 
     .introduction .intro-left-side h1 {
         font-size: 28px;
@@ -503,21 +476,15 @@ margin-right: 10px;
         height: 358px;
         margin: -47px 8px;
         
-     }
+    }
 
-     
-
-    
-
-     /* TODO 2 */
+/* TODO 2---------------------------------------------------*/
 
      .intro-section {
         display: flex;
         
         
     }
-
-    
 
     .intro-section .div-right{
         padding-top: 4px;
@@ -527,8 +494,6 @@ margin-right: 10px;
     .intro-section .div-left{
         padding-top: 70px;
     }
-
-
 
     .intro-section .div-right h2 {
         font-size: 29px;
@@ -545,15 +510,13 @@ margin-right: 10px;
         
      }
 
-     /* TODO 3 */
+/* TODO 3---------------------------------------------------*/
 
      .introduction {
         display: flex;
         
         
     }
-
-    
 
     .introduction .intro-left-side{
         padding-top: 70px;
@@ -562,8 +525,6 @@ margin-right: 10px;
     .introduction .last-right{
         padding-top: 70px;
     }
-
-
 
     .introduction .intro-left-side .h4 {
         font-size: 23px;
@@ -578,16 +539,14 @@ margin-right: 10px;
         margin: -47px 8px;
         
      }
+
      .share{
         padding: 86px 0;
      }
-     
-     
-    
-    
 }
 
 @media(min-width:992px) {
+
     .parentdiv {
         max-width: 960px;
         margin: 0 auto;
@@ -598,16 +557,17 @@ margin-right: 10px;
         
         
     }
+
     .div{
         justify-content: space-between;
         display: flex;
     }
     
-   
     .div img{
         display: inline !important;
 
     }
+
     .card{
         display: inline !important;
     } 
@@ -618,6 +578,7 @@ margin-right: 10px;
 
        
     }
+
     .introduction .intro-left-side .h4 {
         font-size: 42px;
         color: #ffffff;
@@ -632,6 +593,7 @@ margin-right: 10px;
     .introduction .intro-right-side {
         padding-top: 72px;
     }
+
     .introduction .intro-right-side img{
         width: 592px;
         height: 528px;
@@ -657,10 +619,6 @@ margin-right: 10px;
     .intro-section .div-right h2 {
         font-size: 40px;
         color: #ffffff;
-        
-
-
-       
     }
 
     .intro-section .div-right {
@@ -670,6 +628,7 @@ margin-right: 10px;
     .intro-section .div-left {
         padding-top: 72px;;
     }
+
     .intro-section .div-left img{
         width: 870px;
         height: 536px;
@@ -677,27 +636,24 @@ margin-right: 10px;
         padding: 0 0 371px 0;
     
     }
+
     .share {
         max-width: 960px;
         margin: 0 auto;
     }
 
     .share-section {
-        display: flex;
-        
+        display: flex;  
     }
 
     .share-section .left-side h1 {
         font-size: 59px;
         color: #ffffff;
-
-       
     }
+
     .share-section .left-side .h4 {
         font-size: 42px;
         color: #ffffff;
-
-       
     }
 
     .share-section .left-side {
@@ -710,19 +666,21 @@ margin-right: 10px;
    
     .card{
         display: inline !important;
-
     }
 }
 
 @media(min-width:1200px) {
+
     .parentdiv {
         max-width: 1140px;
         margin: 0 auto;
     }
+
     .entrance {
         max-width: 1140px;
         margin: 0 auto;
     }
+
     .share {
         max-width: 1140px;
         margin: 0 auto;
