@@ -1,3 +1,5 @@
+/* TODO 1----------------------------------------------------------------------------------------------------------------------------------------*/
+
 :root {
     --secondary-color:#666;
     --introduction-span-color:#FF8A56;
@@ -33,22 +35,9 @@ header nav a {
     margin-right: 10px;
 }
 
-.button{
-    background: #3A68B8;
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    padding: 2px 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0 auto; 
-    border-radius: 5px;
-}
-
-article{
-    color: #ffffff;
-    opacity: .7;
+header img{
+    width: 58px;
+    height: 72px
 }
 
 .h3{
@@ -65,18 +54,17 @@ h3{
     font-size: 18px;
 }
 
-header img{
-    width: 58px;
-    height: 72px
-}
-
-.introduction .intro-left-side p {
-    color:var(--secondary-color);
-    font-weight: 400;
-}
-
-.book-a-call {
-    margin-top: 40px;
+.button{
+    background: #3A68B8;
+    color:#fff;
+    width: 151px;
+    height: 58px;
+    padding: 2px 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 auto; 
+    border-radius: 5px;
 }
 
 .introduction .intro-left-side .book {
@@ -91,55 +79,76 @@ align-items: center;
 margin-right: 10px;
 }
 
+.introduction .intro-left-side p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.introduction .intro-right-side img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.introduction .intro-left-side h1{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.introduction .last-right img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.introduction .intro-left-side h1{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+article{
+    color: #ffffff;
+    opacity: .7;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
 .div{
     justify-content: space-between;
     display: flex;
 }
 
-.h1{
-   margin-left: 500px;
-   margin-right: 400px;
-   font-size: 18px;
-   color: #000;
- 
-}
-
-
-.services-cards img{
-    margin: 0 127px;
-    width: 78px;
-}
-
-.services-cards .card{
-    transition: all .1s ease-in;
-    padding:  11px 0;
-    margin:  40px 0;
-    margin-bottom: 100px;
-    border-radius: 5px;
-    color: #ffffff;
-    background: linear-gradient(to bottom, #0d1422, #19202d);
-
-}
-
-
-.services-cards{
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
-    color: #FFFF;
-}
-
-p{
-    opacity: 0.7;
+.logoipsumlar h6{
     text-align: center;
-    font-size: 16px;
-}
-
-h5{
-    text-align: center;
-    color: #ffffff;
     font-size: 18px;
+    font-weight: 100;
 }
+
+.logoipsumlar{
+    padding: 200px 0px;
+   
+}
+
+.book-a-call a{
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 119px;
+    height: 51px;
+    padding: 2px 15px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-top: 0 auto;
+    
+}
+
+
+/* TODO 2 -------------------------------------------------------------------------------------------------------------------------------------- */
 
 .intro-section .div-right p {
     color:var(--secondary-color);
@@ -165,6 +174,72 @@ margin-right: 10px;
    
 }
 
+.intro-section .div-left img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.intro-section .div-right h2{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services-cards img{
+    margin: 0 127px;
+    width: 78px;
+}
+
+.services-cards .card{
+    transition: all .1s ease-in;
+    padding:  11px 0;
+    margin:  40px 0;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #0d1422, #19202d);
+
+}
+
+.services-cards{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
+    color: #FFFF;
+}
+
+.services-cards .card:nth-child(1),
+.services-cards .card:nth-child(2){
+        display: none;
+}
+
+p{
+    opacity: 0.7;
+    text-align: center;
+    font-size: 16px;
+}
+
+h5{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .share-section .left-side p {
     color:var(--secondary-color);
     font-weight: 400;
@@ -182,26 +257,9 @@ align-items: center;
 margin-right: 10px;
 }
 
-.div{
-    justify-content: space-between;
-    display: flex;
 
- 
-}
 
-.h1{
-   margin-left: 500px;
-   margin-right: 400px;
-   font-size: 18px;
-   color: #000;
- 
-}
 
-.logoipsumlar h6{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 100;
-}
 
 .services-card img{
     margin: 0 60px;
@@ -291,67 +349,17 @@ margin-right: 10px;
    
 }
 
-.logoipsumlar{
-    padding: 200px 0px;
-   
-}
-
-.book-a-call a{
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 119px;
-    height: 51px;
-    padding: 2px 15px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-top: 0 auto;
-    
-}
-
-.introduction .intro-right-side img{
-    width: 300px;
-    margin: 0 auto;
-}
-
-.introduction .intro-left-side h1{
-    color: #FFFF;
-    font-size: 31px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.intro-section .div-left img{
-    width: 300px;
-    margin: 0 auto;
-}
-
-.intro-section .div-right h2{
-    color: #FFFF;
-    font-size: 31px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.introduction .last-right img{
-    width: 300px;
-    margin: 0 auto;
-}
-
-.introduction .intro-left-side h1{
-    color: #FFFF;
-    font-size: 31px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 
 
 
-.services-cards .card:nth-child(1),
-.services-cards .card:nth-child(2){
-        display: none;
-    }
+
+
+
+
+
+
+
+
 
 .right-side{
     display: none;
@@ -526,7 +534,7 @@ margin-top: 0 auto;
         font-size: 29px;
         color: #ffffff;
         font-weight: 600;
-        margin: 0 0;
+        margin: 0 0 20px 0;
        
     }
     
