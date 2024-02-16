@@ -368,44 +368,36 @@ margin-right: 10px;
     .share {
         max-width: 100%;
     }
-    
-
 }
 
 @media(min-width:576px) {
-.parentdiv {
-    max-width: 540px;
-    margin: 0 auto;
-}
-.entrance {
-    max-width: 540px;
-    margin: 0 auto;
-}
-.share {
-    max-width: 540px;
-    margin: 0 auto;
-}
 
+    .parentdiv {
+        max-width: 540px;
+        margin: 0 auto;
+    }
 
-
-
+    .entrance {
+        max-width: 540px;
+        margin: 0 auto;
+    
+    }
+    
+    .share {
+        max-width: 540px;
+        margin: 0 auto;
+    }
 }
 
 @media(min-width:768px) {
 
-    header nav {
-        display: block;
-       
-    }
+    
 
     .right-side{
         display: inline !important;
     }
 
-    .share{
-        display: flex;
-        justify-content: space-between;
-    }
+    
 
     .services-cards .card{
         transition: all .1s ease-in;
@@ -415,13 +407,6 @@ margin-right: 10px;
         border-radius: 5px;
         color: #ffffff;
         background: linear-gradient(to bottom, #0d1422, #19202d);
-    
-    }
-
-    .logoipsumlar{
-        padding: 200px 0;
-     
-       
     }
 
     .services-cards img{
@@ -430,7 +415,7 @@ margin-right: 10px;
     }
 
     .fa-bars {
-    display: none;
+        display: none;
     }
 
     .parentdiv {
@@ -450,7 +435,15 @@ margin-right: 10px;
 
 /* TODO 1---------------------------------------------------*/
 
-     .introduction {
+    header nav {
+        display: block;
+    }
+
+    .logoipsumlar{
+        padding: 200px 0;
+    }
+
+    .introduction {
         display: flex;
         
         
@@ -480,7 +473,7 @@ margin-right: 10px;
 
 /* TODO 2---------------------------------------------------*/
 
-     .intro-section {
+    .intro-section {
         display: flex;
         
         
@@ -508,11 +501,11 @@ margin-right: 10px;
         height: 550px;
         margin: -271px 25px 27px 0;
         
-     }
+    }
 
 /* TODO 3---------------------------------------------------*/
 
-     .introduction {
+    .introduction {
         display: flex;
         
         
@@ -538,11 +531,14 @@ margin-right: 10px;
         height: 483px;
         margin: -47px 8px;
         
-     }
+    }
 
-     .share{
+    .share{
         padding: 86px 0;
-     }
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
 
 @media(min-width:992px) {
