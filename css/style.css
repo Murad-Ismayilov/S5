@@ -158,9 +158,6 @@ article{
 }
 
 
-/* TODO 2----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 .intro-section .div-right p {
     color:var(--secondary-color);
     font-weight: 400;
@@ -178,17 +175,19 @@ article{
     margin-right: 10px;
 }
 
+
 .intro-section .div-right h2 {
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
-   
 }
+
 
 .intro-section .div-left img{
     width: 300px;
     margin: 0 auto;
 }
+
 
 .intro-section .div-right h2{
     color: #FFFF;
@@ -197,10 +196,12 @@ article{
     margin-bottom: 20px;
 }
 
+
 .services-cards img{
     margin: 0 111px;
     width: 78px;
 }
+
 
 .services-cards .card{
     transition: all .1s ease-in;
@@ -210,8 +211,8 @@ article{
     border-radius: 5px;
     color: #ffffff;
     background: linear-gradient(to bottom, #0d1422, #19202d);
-
 }
+
 
 .services-cards{
     display: -ms-grid;
@@ -221,6 +222,7 @@ article{
     margin: 0 20px;
 }
 
+
 .services-cards .card:nth-child(2),
 .services-cards .card:nth-child(3),
 .services-cards .card:nth-child(4),
@@ -228,20 +230,19 @@ article{
         display: none;
 }
 
+
 p{
     opacity: 0.7;
     text-align: center;
     font-size: 16px;
 }
 
+
 h5{
     text-align: center;
     color: #ffffff;
     font-size: 18px;
 }
-
-
-/* TODO 3----------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 .introduction .last-right img{
@@ -251,13 +252,11 @@ h5{
 }
 
 
-/* TODO 4-----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 .share-section .left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
+
 
 .share-section .left-side .book {
     background: #222;
@@ -271,23 +270,23 @@ align-items: center;
 margin-right: 10px;
 }
 
+
 .services-card img{
     margin: 0 60px;
     width: 78px;
 }
 
 
-
 .card-right article{
     padding: 14px;
     font-size: 16px;
-    
 }
+
 
 .card-right img{
     padding: 10px;
-   
 }
+
 
 .services-card{
     display: -ms-grid;
@@ -296,6 +295,7 @@ margin-right: 10px;
     color: #FFFF;
 }
 
+
 p{
     opacity: 0.7;
     text-align: center;
@@ -303,7 +303,6 @@ p{
 }
 
 h6{
-    
     color: #ffffff;
     font-size: 18px;
     margin: 43px 12px;
