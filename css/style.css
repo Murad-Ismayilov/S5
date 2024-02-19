@@ -369,6 +369,22 @@ h6{
 }
 
 
+@media(max-width:320px){
+    .button{
+        background: #3A68B8;
+        color:#fff;
+        width: 100px;
+        height: 32px;
+        padding: 2px 2px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 auto; 
+        border-radius: 5px;
+        margin: 0 21px;
+    }
+}
+
 
 @media(max-width:575px) {
 
@@ -770,7 +786,7 @@ h6{
         max-width: 1140px;
         margin: 0 auto;
     }
-    
+
 }
 
 
