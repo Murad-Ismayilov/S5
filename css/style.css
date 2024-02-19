@@ -55,7 +55,7 @@ h3{
     font-size: 18px;
 }
 
-.button{
+/* .button{
     background: #3A68B8;
     color:#fff;
     width: 151px;
@@ -66,7 +66,7 @@ h3{
     align-items: center;
     margin-top: 0 auto; 
     border-radius: 5px;
-}
+} */
 
 .introduction .intro-left-side .book {
     background: #222;
@@ -204,10 +204,13 @@ margin-right: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
     color: #FFFF;
+    margin: 0 20px;
 }
 
-.services-cards .card:nth-child(1),
-.services-cards .card:nth-child(2){
+.services-cards .card:nth-child(2),
+.services-cards .card:nth-child(3),
+.services-cards .card:nth-child(4),
+.services-cards .card:nth-child(5){
         display: none;
 }
 
@@ -258,16 +261,7 @@ margin-right: 10px;
     width: 78px;
 }
 
-.card-right{
-    display: flex;
-    justify-content: space-between;
-    transition: all .1s ease-in;
-    padding: 5px;
-    margin: 25px 43px;
-    margin-bottom: 100px;
-    border-radius: 5px;
-    color: #FFFF;
-}
+
 
 .card-right article{
     padding: 14px;
@@ -342,12 +336,15 @@ margin-right: 10px;
 }
 
 .right-side{
-    display: none;
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
 }
 
 .div img:nth-child(1),
-.div img:nth-child(2){
-    display: none;
+.div img:nth-child(2),
+.div img:nth-child(3){
+   display: none;
 }
 
 
@@ -528,12 +525,18 @@ margin-right: 10px;
         
     }
 
-    
-
     .right-side{
         display: inline !important;
     }
-     
+    
+     .div img:nth-child(3){
+        display: block ;
+    }
+   
+.services-cards .card:nth-child(4),
+.services-cards .card:nth-child(5){
+        display: block;
+}
 
 }
 
@@ -666,9 +669,31 @@ margin-right: 10px;
         display: inline !important;
     } 
     
-    .card{
-        display: inline !important;
-    } 
+    .card-right{
+        display: flex;
+        justify-content: space-between;
+        transition: all .1s ease-in;
+        padding: 5px;
+        margin: 25px 43px;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        color: #FFFF;
+       
+    }
+
+    .button{
+        background: #3A68B8;
+        color:#fff;
+        width: 151px;
+        height: 58px;
+        padding: 2px 2px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 auto; 
+        border-radius: 5px;
+    }
+    
 }
 
 @media(min-width:1200px) {
