@@ -370,6 +370,7 @@ h6{
 
 
 @media(max-width:320px){
+
     .button{
         background: #3A68B8;
         color:#fff;
@@ -383,8 +384,8 @@ h6{
         border-radius: 5px;
         margin: 0 21px;
     }
+    
 }
-
 
 @media(max-width:575px) {
 
