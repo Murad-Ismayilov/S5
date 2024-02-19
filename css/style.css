@@ -37,7 +37,7 @@ header nav a {
 }
 
 header img{
-    width: 58px;
+    width: 28px;
     height: 72px
 }
 
@@ -46,7 +46,7 @@ header img{
     justify-content: space-between;
     color: #3A68B8;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 16px;
     align-items: center;
 }
 
@@ -55,18 +55,18 @@ h3{
     font-size: 18px;
 }
 
-/* .button{
+.button{
     background: #3A68B8;
     color:#fff;
-    width: 151px;
-    height: 58px;
+    width: 100px;
+    height: 32px;
     padding: 2px 2px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-top: 0 auto; 
     border-radius: 5px;
-} */
+}
 
 .introduction .intro-left-side .book {
     background: #222;
@@ -125,7 +125,7 @@ article{
 }
 
 .logoipsumlar{
-    padding: 200px 0px;
+    padding: 100px 0px;
    
 }
 
@@ -184,7 +184,7 @@ margin-right: 10px;
 }
 
 .services-cards img{
-    margin: 0 127px;
+    margin: 0 111px;
     width: 78px;
 }
 
@@ -233,6 +233,7 @@ h5{
 .introduction .last-right img{
     width: 300px;
     margin: 0 auto;
+    padding: 20px 0 60px 0;
 }
 
 
@@ -409,6 +410,15 @@ margin-right: 10px;
         display: none;
     }
 
+    .services-cards img{
+        margin: 0 127px;
+        width: 78px;
+    }
+
+    .introduction .last-right img{
+        width: 300px;
+        margin: 0 auto;
+    }
 
 /* TODO 1---------------------------------------------------*/
 
@@ -608,7 +618,10 @@ margin-right: 10px;
     }
 
     
-
+    .logoipsumlar{
+        padding: 200px 0px;
+       
+    }
 
 
 
@@ -693,7 +706,21 @@ margin-right: 10px;
         margin-top: 0 auto; 
         border-radius: 5px;
     }
-    
+
+    header img{
+    width: 58px;
+    height: 72px
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+}
+
 }
 
 @media(min-width:1200px) {
