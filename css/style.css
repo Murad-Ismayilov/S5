@@ -1,22 +1,23 @@
-/* TODO 1----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 :root {
     --secondary-color:#666;
     --introduction-span-color:#FF8A56;
 }
+
 
 * {
     text-decoration: none;
     /* outline: 1px solid red */
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #08101e;
 }
+
 
 header {
     display: flex;
@@ -27,19 +28,23 @@ header {
   
 }
 
+
 header nav {
     display: none;
 }
+
 
 header nav a {
     color:#ffffff;
     margin-right: 10px;
 }
 
+
 header img{
     width: 28px;
     height: 72px
 }
+
 
 .h3{
     display: flex;
@@ -50,10 +55,12 @@ header img{
     align-items: center;
 }
 
+
 h3{
     color: #3A68B8;
     font-size: 18px;
 }
+
 
 .button{
     background: #3A68B8;
@@ -68,34 +75,30 @@ h3{
     border-radius: 5px;
 }
 
+
 .introduction .intro-left-side .book {
     background: #222;
-   
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
+
 
 .introduction .intro-left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
 
+
 .introduction .intro-right-side img{
     width: 300px;
     margin: 0 auto;
 }
 
-.introduction .intro-left-side h1{
-    color: #FFFF;
-    font-size: 31px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 
 .introduction .intro-left-side h1{
     color: #FFFF;
@@ -103,20 +106,32 @@ margin-right: 10px;
     font-weight: 700;
     margin-bottom: 20px;
 }
+
+
+.introduction .intro-left-side h1{
+    color: #FFFF;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 
 article{
     color: #ffffff;
     opacity: .7;
 }
 
+
 .book-a-call {
     margin-top: 40px;
 }
+
 
 .div{
     justify-content: space-between;
     display: flex;
 }
+
 
 .logoipsumlar h6{
     text-align: center;
@@ -124,22 +139,22 @@ article{
     font-weight: 100;
 }
 
+
 .logoipsumlar{
     padding: 100px 0px;
-   
 }
+
 
 .book-a-call a{
     background: #3A68B8;
-   
     color:#fff;
     width: 119px;
     height: 51px;
     padding: 2px 15px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-top: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 auto;
     
 }
 
