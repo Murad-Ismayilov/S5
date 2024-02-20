@@ -633,6 +633,7 @@ h6{
 
 }
 
+
 @media(min-width:992px) {
 
     .parentdiv {
@@ -699,7 +700,7 @@ h6{
         margin: -25px;
     }
     
-    
+
     .introduction {
         display: flex;
     }
@@ -813,6 +814,7 @@ h6{
 }
 
 }
+
 
 @media(min-width:1200px) {
 
