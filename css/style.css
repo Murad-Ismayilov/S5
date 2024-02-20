@@ -41,7 +41,7 @@ header nav a {
 
 
 header img{
-    width: 28px;
+    width: 43px;
     height: 72px
 }
 
@@ -65,14 +65,15 @@ h3{
 .button{
     background: #3A68B8;
     color:#fff;
-    width: 100px;
-    height: 32px;
+    width: 140px;
+    height: 52px;
     padding: 2px 2px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-top: 0 auto; 
     border-radius: 5px;
+    margin: 0 14px;
 }
 
 
@@ -374,8 +375,8 @@ h6{
     .button{
         background: #3A68B8;
         color:#fff;
-        width: 100px;
-        height: 32px;
+        width: 140px;
+        height: 42px;
         padding: 2px 2px;
         display: inline-flex;
         justify-content: center;
@@ -383,6 +384,14 @@ h6{
         margin-top: 0 auto; 
         border-radius: 5px;
         margin: 0 21px;
+    }
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        color: #3A68B8;
+        font-weight: 600;
+        font-size: 16px;
+        align-items: center;
     }
     
 }
@@ -401,6 +410,15 @@ h6{
 
     .share {
         max-width: 100%;
+    }
+
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        color: #3A68B8;
+        font-weight: 600;
+        font-size: 18px;
+        align-items: center;
     }
 
 }
@@ -423,6 +441,15 @@ h6{
     .share {
         max-width: 540px;
         margin: 0 auto;
+    }
+
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        color: #3A68B8;
+        font-weight: 600;
+        font-size: 16px;
+        align-items: center;
     }
 
 }
