@@ -6,7 +6,6 @@
 
 * {
     text-decoration: none;
-    /* outline: 1px solid red */
 }
 
 
@@ -21,11 +20,8 @@ body {
 
 header {
     display: flex;
-   
     justify-content: space-between;
-  
     align-items: center;
-  
 }
 
 
