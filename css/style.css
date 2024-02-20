@@ -386,7 +386,7 @@ h6{
         margin: 0 21px;
     }
 
-    
+
     .h3{
         display: flex;
         justify-content: space-between;
@@ -397,6 +397,7 @@ h6{
     }
     
 }
+
 
 @media(max-width:575px) {
 
@@ -414,6 +415,7 @@ h6{
         max-width: 100%;
     }
 
+
     .h3{
         display: flex;
         justify-content: space-between;
@@ -424,6 +426,7 @@ h6{
     }
 
 }
+
 
 @media(min-width:576px) {
 
@@ -445,6 +448,7 @@ h6{
         margin: 0 auto;
     }
 
+
     .h3{
         display: flex;
         justify-content: space-between;
@@ -455,6 +459,7 @@ h6{
     }
 
 }
+
 
 @media(min-width:768px) {
 
@@ -592,29 +597,35 @@ h6{
         padding-top: 70px;
     }
 
+
     .introduction .last-right{
         padding-top: 70px;
     }
+
 
     .introduction .intro-left-side .h4 {
         font-size: 23px;
         color: #ffffff;
     }
     
+
     .introduction .last-right img{
         width: 474px;
         height: 483px;
         margin: -47px 8px;
     }
 
+
     .right-side{
         display: inline !important;
     }
+
     
      .div img:nth-child(3){
         display: block ;
     }
    
+
 .services-cards .card:nth-child(4),
 .services-cards .card:nth-child(5){
         display: block;
@@ -664,13 +675,16 @@ h6{
         color: #ffffff;
     }
 
+
     .introduction .intro-left-side {
         padding: 92px 0;
     }
 
+
     .introduction .intro-right-side {
         padding-top: 72px;
     }
+
 
     .introduction .intro-right-side img{
         width: 592px;
@@ -678,11 +692,13 @@ h6{
         margin: -15px;
     }
 
+
     .introduction .last-right img{
         width: 585px;
         height: 500px;
         margin: -25px;
     }
+    
     
     .introduction {
         display: flex;
