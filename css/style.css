@@ -3,20 +3,16 @@
     --introduction-span-color:#FF8A56;
 }
 
-
 * {
     text-decoration: none;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #08101e;
 }
-
 
 header {
     display: flex;
@@ -24,23 +20,19 @@ header {
     align-items: center;
 }
 
-
 header nav {
     display: none;
 }
-
 
 header nav a {
     color:#ffffff;
     margin-right: 10px;
 }
 
-
 header img{
     width: 43px;
     height: 72px
 }
-
 
 .h3{
     display: flex;
@@ -51,12 +43,10 @@ header img{
     align-items: center;
 }
 
-
 h3{
     color: #3A68B8;
     font-size: 18px;
 }
-
 
 .button{
     background: #3A68B8;
@@ -72,7 +62,6 @@ h3{
     margin: 0 14px;
 }
 
-
 .introduction .intro-left-side .book {
     background: #222;
     color:#fff;
@@ -84,19 +73,16 @@ h3{
     margin-right: 10px;
 }
 
-
 .introduction .intro-left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
-
 
 .introduction .intro-right-side img{
     width: 300px;
     margin: 0 auto;
 }
 
-
 .introduction .intro-left-side h1{
     color: #FFFF;
     font-size: 31px;
@@ -104,31 +90,26 @@ h3{
     margin-bottom: 20px;
 }
 
-
 .introduction .intro-left-side h1{
     color: #FFFF;
     font-size: 31px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-
 
 article{
     color: #ffffff;
     opacity: .7;
 }
 
-
 .book-a-call {
     margin-top: 40px;
 }
-
 
 .div{
     justify-content: space-between;
     display: flex;
 }
-
 
 .logoipsumlar h6{
     text-align: center;
@@ -136,11 +117,9 @@ article{
     font-weight: 100;
 }
 
-
 .logoipsumlar{
     padding: 100px 0px;
 }
-
 
 .book-a-call a{
     background: #3A68B8;
@@ -154,12 +133,10 @@ article{
     margin-top: 0 auto;
 }
 
-
 .intro-section .div-right p {
     color:var(--secondary-color);
     font-weight: 400;
 }
-
 
 .intro-section .div-right .book {
     background: #222;
@@ -172,19 +149,16 @@ article{
     margin-right: 10px;
 }
 
-
 .intro-section .div-right h2 {
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
 }
 
-
 .intro-section .div-left img{
     width: 300px;
     margin: 0 auto;
 }
-
 
 .intro-section .div-right h2{
     color: #FFFF;
@@ -193,12 +167,10 @@ article{
     margin-bottom: 20px;
 }
 
-
 .services-cards img{
     margin: 0 111px;
     width: 78px;
 }
-
 
 .services-cards .card{
     transition: all .1s ease-in;
@@ -210,7 +182,6 @@ article{
     background: linear-gradient(to bottom, #0d1422, #19202d);
 }
 
-
 .services-cards{
     display: -ms-grid;
     display: grid;
@@ -219,7 +190,6 @@ article{
     margin: 0 20px;
 }
 
-
 .services-cards .card:nth-child(2),
 .services-cards .card:nth-child(3),
 .services-cards .card:nth-child(4),
@@ -227,13 +197,11 @@ article{
         display: none;
 }
 
-
 p{
     opacity: 0.7;
     text-align: center;
     font-size: 16px;
 }
-
 
 h5{
     text-align: center;
@@ -241,49 +209,42 @@ h5{
     font-size: 18px;
 }
 
-
 .introduction .last-right img{
     width: 300px;
     margin: 0 auto;
     padding: 20px 0 60px 0;
 }
 
-
 .share-section .left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-
 .share-section .left-side .book {
     background: #222;
-   
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-}
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 
+}
 
 .services-card img{
     margin: 0 60px;
     width: 78px;
 }
 
-
 .card-right article{
     padding: 14px;
     font-size: 16px;
 }
 
-
 .card-right img{
     padding: 10px;
 }
-
 
 .services-card{
     display: -ms-grid;
@@ -292,13 +253,11 @@ margin-right: 10px;
     color: #FFFF;
 }
 
-
 p{
     opacity: 0.7;
     text-align: center;
     font-size: 16px;
 }
-
 
 h6{
     color: #ffffff;
@@ -306,18 +265,15 @@ h6{
     margin: 43px 12px;
 }
 
-
 .h6{
     color: #FFFF;
     margin: 20px 13px;
 }
 
-
 .h5{
     color: #FFFF;
     margin: 40px 13px;
 }
-
 
 .services-card{
     display: flex;
@@ -326,12 +282,10 @@ h6{
     margin: -90px 3px;
 }
 
-
 .share-section .right-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
-
 
 .share-section .right-side .book {
     background: #222;
@@ -344,20 +298,17 @@ h6{
     margin-right: 10px;
 }
 
-
 .share-section .right-side h2 {
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
 }
 
-
 .right-side{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-
 
 .div img:nth-child(2),
 .div img:nth-child(3),
@@ -366,9 +317,7 @@ h6{
 }
 
 
-
 @media(max-width:320px){
-
     .button{
         background: #3A68B8;
         color:#fff;
@@ -383,7 +332,6 @@ h6{
         margin: 0 21px;
     }
 
-
     .h3{
         display: flex;
         justify-content: space-between;
@@ -392,26 +340,20 @@ h6{
         font-size: 16px;
         align-items: center;
     }
-    
 }
 
-
 @media(max-width:575px) {
-
     .parentdiv {
         max-width: 100%;
     }
-
 
     .entrance {
         max-width: 100%;
     }
 
-
     .share {
         max-width: 100%;
     }
-
 
     .h3{
         display: flex;
@@ -421,30 +363,23 @@ h6{
         font-size: 18px;
         align-items: center;
     }
-
 }
 
-
 @media(min-width:576px) {
-
     .parentdiv {
         max-width: 540px;
         margin: 0 auto;
     }
 
-
     .entrance {
         max-width: 540px;
         margin: 0 auto;
-    
     }
     
-
     .share {
         max-width: 540px;
         margin: 0 auto;
     }
-
 
     .h3{
         display: flex;
@@ -454,23 +389,18 @@ h6{
         font-size: 16px;
         align-items: center;
     }
-
 }
 
-
 @media(min-width:768px) {
-
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
     } 
 
-
     .entrance {
         max-width: 720px;
         margin: 0 auto;
     }
-
 
     .share{
         padding: 86px 0;
@@ -480,55 +410,45 @@ h6{
         margin: 0 auto;
     }
 
-
      .fa-bars {
         display: none;
     }
-
 
     .services-cards img{
         margin: 0 127px;
         width: 78px;
     }
 
-
     .introduction .last-right img{
         width: 300px;
         margin: 0 auto;
     }
 
-
     header nav {
         display: block;
     }
-
 
     .logoipsumlar{
         padding: 200px 0;
     }
 
-
     .introduction {
         display: flex;
     }
-
 
     .introduction .intro-left-side{
         padding-top: 70px;
     }
 
-
     .introduction .intro-right-side{
         padding-top: 70px;
     }
-
 
     .introduction .intro-left-side h1 {
         font-size: 28px;
         color: #ffffff;
     }
     
-
     .introduction .intro-right-side img{
         width: 379px;
         height: 358px;
@@ -536,22 +456,18 @@ h6{
         
     }
 
-
     .intro-section {
         display: flex;
     }
-
 
     .intro-section .div-right{
         padding-top: 4px;
         margin: -62px 22px;
     }
 
-
     .intro-section .div-left{
         padding-top: 70px;
     }
-
 
     .intro-section .div-right h2 {
         font-size: 29px;
@@ -560,14 +476,12 @@ h6{
         margin: 0 0 20px 0;
     }
     
-    
     .intro-section .div-left img{
         width: 390px;
         height: 550px;
         margin: -271px 25px 27px 0;
     }
     
-
     .services-cards .card{
         transition: all .1s ease-in;
         padding:  5px;
@@ -578,33 +492,27 @@ h6{
         background: linear-gradient(to bottom, #0d1422, #19202d);
     }
 
-
     .services-cards img{
         margin: 0 60px;
         width: 78px;
     }
 
-
     .introduction {
         display: flex;
     }
-
 
     .introduction .intro-left-side{
         padding-top: 70px;
     }
 
-
     .introduction .last-right{
         padding-top: 70px;
     }
-
 
     .introduction .intro-left-side .h4 {
         font-size: 23px;
         color: #ffffff;
     }
-    
 
     .introduction .last-right img{
         width: 474px;
@@ -612,77 +520,62 @@ h6{
         margin: -47px 8px;
     }
 
-
     .right-side{
         display: inline !important;
     }
-
     
      .div img:nth-child(3){
         display: block ;
     }
    
-
 .services-cards .card:nth-child(4),
 .services-cards .card:nth-child(5){
         display: block;
 }
-
 }
 
-
 @media(min-width:992px) {
-
     .parentdiv {
         max-width: 960px;
         margin: 0 auto;
     }
-
 
     .entrance {
         max-width: 960px;
         margin: 0 auto;
     }
     
-
     .share {
         max-width: 960px;
         margin: 0 auto;
     }
-
 
     .div{
         justify-content: space-between;
         display: flex;
     }
 
-
     .div img{
         display: inline !important;
     }
-
 
     .introduction .intro-left-side h1 {
         font-size: 59px;
         color: #ffffff;
     }
 
-
     .introduction .intro-left-side .h4 {
         font-size: 42px;
         color: #ffffff;
     }
 
-
     .introduction .intro-left-side {
         padding: 92px 0;
     }
 
-
     .introduction .intro-right-side {
         padding-top: 72px;
     }
-
 
     .introduction .intro-right-side img{
         width: 592px;
@@ -690,44 +583,36 @@ h6{
         margin: -15px;
     }
 
-
     .introduction .last-right img{
         width: 585px;
         height: 500px;
         margin: -25px;
     }
     
-
     .introduction {
         display: flex;
     }
-
     
     .logoipsumlar{
         padding: 200px 0px;
     }
 
-
     .intro-section {
         display: flex; 
     }
-
 
     .intro-section .div-right h2 {
         font-size: 40px;
         color: #ffffff;
     }
 
-
     .intro-section .div-right {
         padding: 52px 45px;
     }
 
-
     .intro-section .div-left {
         padding-top: 72px;
     }
-
 
     .intro-section .div-left img{
         width: 870px;
@@ -736,38 +621,31 @@ h6{
         padding: 0 0 371px 0;
     }
 
-
     .share-section {
         display: flex;  
     }
     
-
     .share-section .left-side h1 {
         font-size: 59px;
         color: #ffffff;
     }
-
 
     .share-section .left-side .h4 {
         font-size: 42px;
         color: #ffffff;
     }
 
-
     .share-section .left-side {
         padding: 92px 0;
     }
 
-
     .share-section .right-side {
         padding-top: 72px;
     }
-
    
     .card{
         display: inline !important;
     }
-    
     
     .card-right{
         display: flex;
@@ -779,7 +657,6 @@ h6{
         border-radius: 5px;
         color: #FFFF;
     }
-
 
     .button{
         background: #3A68B8;
@@ -794,13 +671,11 @@ h6{
         border-radius: 5px;
     }
 
-
     header img{
         width: 58px;
         height: 72px
     }
 
-    
     .h3{
         display: flex;
         justify-content: space-between;
@@ -809,27 +684,21 @@ h6{
         font-size: 22px;
         align-items: center;
 }
-
 }
 
-
 @media(min-width:1200px) {
-
     .parentdiv {
         max-width: 1140px;
         margin: 0 auto;
     }
-
 
     .entrance {
         max-width: 1140px;
         margin: 0 auto;
     }
 
-
     .share {
         max-width: 1140px;
         margin: 0 auto;
     }
-
 }
