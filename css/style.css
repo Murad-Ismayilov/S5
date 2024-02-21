@@ -359,9 +359,9 @@ h6{
 }
 
 
-.div img:nth-child(1),
 .div img:nth-child(2),
-.div img:nth-child(3){
+.div img:nth-child(3),
+.div img:nth-child(4){
    display: none;
 }
 
