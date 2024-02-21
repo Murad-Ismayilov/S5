@@ -245,6 +245,10 @@ h5{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
     color: #FFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: -90px 3px;
 }
 
 p{
@@ -269,12 +273,7 @@ h6{
     margin: 40px 13px;
 }
 
-.services-card{
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: -90px 3px;
-}
+
 
 .share-section .right-side p {
     color:var(--secondary-color);
