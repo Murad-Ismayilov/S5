@@ -1,30 +1,30 @@
-:root {
+:root{
     --secondary-color:#666;
     --introduction-span-color:#FF8A56;
 }
 
-* {
+*{
     text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
+body{
     font-family: 'Roboto', sans-serif;
     background-color: #08101e;
 }
 
-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header nav {
+header nav{
     display: none;
 }
 
-header nav a {
+header nav a{
     color:#ffffff;
     margin-right: 10px;
 }
@@ -62,7 +62,7 @@ h3{
     margin: 0 14px;
 }
 
-.introduction .intro-left-side .book {
+.introduction .intro-left-side .book{
     background: #222;
     color:#fff;
     width: 151px;
@@ -73,7 +73,7 @@ h3{
     margin-right: 10px;
 }
 
-.introduction .intro-left-side p {
+.introduction .intro-left-side p{
     color:var(--secondary-color);
     font-weight: 400;
 }
@@ -102,7 +102,7 @@ article{
     opacity: .7;
 }
 
-.book-a-call {
+.book-a-call{
     margin-top: 40px;
 }
 
@@ -133,12 +133,12 @@ article{
     margin-top: 0 auto;
 }
 
-.intro-section .div-right p {
+.intro-section .div-right p{
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-.intro-section .div-right .book {
+.intro-section .div-right .book{
     background: #222;
     color:#fff;
     width: 151px;
@@ -149,7 +149,7 @@ article{
     margin-right: 10px;
 }
 
-.intro-section .div-right h2 {
+.intro-section .div-right h2{
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
@@ -209,12 +209,12 @@ h5{
     padding: 20px 0 60px 0;
 }
 
-.share-section .left-side p {
+.share-section .left-side p{
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-.share-section .left-side .book {
+.share-section .left-side .book{
     background: #222;
     color:#fff;
     width: 151px;
@@ -273,12 +273,12 @@ h6{
     margin: 40px 13px;
 }
 
-.share-section .right-side p {
+.share-section .right-side p{
     color:var(--secondary-color);
     font-weight: 400;
 }
 
-.share-section .right-side .book {
+.share-section .right-side .book{
     background: #222;
     color:#fff;
     width: 151px;
@@ -289,7 +289,7 @@ h6{
     margin-right: 10px;
 }
 
-.share-section .right-side h2 {
+.share-section .right-side h2{
     font-size: 45px;
     color: #ffffff;
     font-weight: 600;
@@ -335,16 +335,16 @@ h6{
 
 }
 
-@media(max-width:575px) {
-    .parentdiv {
+@media(max-width:575px){
+    .parentdiv{
         max-width: 100%;
     }
 
-    .entrance {
+    .entrance{
         max-width: 100%;
     }
 
-    .share {
+    .share{
         max-width: 100%;
     }
 
@@ -359,18 +359,18 @@ h6{
 
 }
 
-@media(min-width:576px) {
-    .parentdiv {
+@media(min-width:576px){
+    .parentdiv{
         max-width: 540px;
         margin: 0 auto;
     }
 
-    .entrance {
+    .entrance{
         max-width: 540px;
         margin: 0 auto;
     }
     
-    .share {
+    .share{
         max-width: 540px;
         margin: 0 auto;
     }
@@ -386,13 +386,13 @@ h6{
 
 }
 
-@media(min-width:768px) {
-    .parentdiv {
+@media(min-width:768px){
+    .parentdiv{
         max-width: 720px;
         margin: 0 auto;
     } 
 
-    .entrance {
+    .entrance{
         max-width: 720px;
         margin: 0 auto;
     }
@@ -405,7 +405,7 @@ h6{
         margin: 0 auto;
     }
 
-     .fa-bars {
+     .fa-bars{
         display: none;
     }
 
@@ -419,7 +419,7 @@ h6{
         margin: 0 auto;
     }
 
-    header nav {
+    header nav{
         display: block;
     }
 
@@ -427,7 +427,7 @@ h6{
         padding: 200px 0;
     }
 
-    .introduction {
+    .introduction{
         display: flex;
     }
 
@@ -439,7 +439,7 @@ h6{
         padding-top: 70px;
     }
 
-    .introduction .intro-left-side h1 {
+    .introduction .intro-left-side h1{
         font-size: 28px;
         color: #ffffff;
     }
@@ -451,7 +451,7 @@ h6{
         
     }
 
-    .intro-section {
+    .intro-section{
         display: flex;
     }
 
@@ -464,7 +464,7 @@ h6{
         padding-top: 70px;
     }
 
-    .intro-section .div-right h2 {
+    .intro-section .div-right h2{
         font-size: 29px;
         color: #ffffff;
         font-weight: 600;
@@ -492,7 +492,7 @@ h6{
         width: 78px;
     }
 
-    .introduction {
+    .introduction{
         display: flex;
     }
 
@@ -504,7 +504,7 @@ h6{
         padding-top: 70px;
     }
 
-    .introduction .intro-left-side .h4 {
+    .introduction .intro-left-side .h4{
         font-size: 23px;
         color: #ffffff;
     }
@@ -530,18 +530,18 @@ h6{
 
 }
 
-@media(min-width:992px) {
-    .parentdiv {
+@media(min-width:992px){
+    .parentdiv{
         max-width: 960px;
         margin: 0 auto;
     }
 
-    .entrance {
+    .entrance{
         max-width: 960px;
         margin: 0 auto;
     }
     
-    .share {
+    .share{
         max-width: 960px;
         margin: 0 auto;
     }
@@ -555,21 +555,21 @@ h6{
         display: inline !important;
     }
 
-    .introduction .intro-left-side h1 {
+    .introduction .intro-left-side h1{
         font-size: 59px;
         color: #ffffff;
     }
 
-    .introduction .intro-left-side .h4 {
+    .introduction .intro-left-side .h4{
         font-size: 42px;
         color: #ffffff;
     }
 
-    .introduction .intro-left-side {
+    .introduction .intro-left-side{
         padding: 92px 0;
     }
 
-    .introduction .intro-right-side {
+    .introduction .intro-right-side{
         padding-top: 72px;
     }
 
@@ -585,7 +585,7 @@ h6{
         margin: -25px;
     }
     
-    .introduction {
+    .introduction{
         display: flex;
     }
     
@@ -593,20 +593,20 @@ h6{
         padding: 200px 0px;
     }
 
-    .intro-section {
+    .intro-section{
         display: flex; 
     }
 
-    .intro-section .div-right h2 {
+    .intro-section .div-right h2{
         font-size: 40px;
         color: #ffffff;
     }
 
-    .intro-section .div-right {
+    .intro-section .div-right{
         padding: 52px 45px;
     }
 
-    .intro-section .div-left {
+    .intro-section .div-left{
         padding-top: 72px;
     }
 
@@ -617,25 +617,25 @@ h6{
         padding: 0 0 371px 0;
     }
 
-    .share-section {
+    .share-section{
         display: flex;  
     }
     
-    .share-section .left-side h1 {
+    .share-section .left-side h1{
         font-size: 59px;
         color: #ffffff;
     }
 
-    .share-section .left-side .h4 {
+    .share-section .left-side .h4{
         font-size: 42px;
         color: #ffffff;
     }
 
-    .share-section .left-side {
+    .share-section .left-side{
         padding: 92px 0;
     }
 
-    .share-section .right-side {
+    .share-section .right-side{
         padding-top: 72px;
     }
    
@@ -680,21 +680,21 @@ h6{
         font-size: 22px;
         align-items: center;
     }
-    
+
 }
 
-@media(min-width:1200px) {
-    .parentdiv {
+@media(min-width:1200px){
+    .parentdiv{
         max-width: 1140px;
         margin: 0 auto;
     }
 
-    .entrance {
+    .entrance{
         max-width: 1140px;
         margin: 0 auto;
     }
 
-    .share {
+    .share{
         max-width: 1140px;
         margin: 0 auto;
     }
