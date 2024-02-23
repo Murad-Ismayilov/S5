@@ -332,6 +332,7 @@ h6{
         font-size: 16px;
         align-items: center;
     }
+
 }
 
 @media(max-width:575px) {
@@ -355,6 +356,7 @@ h6{
         font-size: 18px;
         align-items: center;
     }
+
 }
 
 @media(min-width:576px) {
@@ -381,6 +383,7 @@ h6{
         font-size: 16px;
         align-items: center;
     }
+
 }
 
 @media(min-width:768px) {
@@ -519,11 +522,12 @@ h6{
      .div img:nth-child(3){
         display: block ;
     }
-   
-.services-cards .card:nth-child(4),
-.services-cards .card:nth-child(5){
+    
+    .services-cards .card:nth-child(4),
+    .services-cards .card:nth-child(5){
         display: block;
-}
+    }
+
 }
 
 @media(min-width:992px) {
@@ -675,7 +679,8 @@ h6{
         font-weight: 600;
         font-size: 22px;
         align-items: center;
-}
+    }
+    
 }
 
 @media(min-width:1200px) {
@@ -693,4 +698,5 @@ h6{
         max-width: 1140px;
         margin: 0 auto;
     }
+
 }
