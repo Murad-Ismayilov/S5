@@ -21,6 +21,17 @@ header{
 
 }
 
+body::-webkit-scrollbar {
+    background: #031433;
+    width: 10px;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #10025c;
+    border-radius: 6px;
+}
+
 header nav{
     display: none;
 }
