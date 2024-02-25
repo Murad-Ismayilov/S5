@@ -46,6 +46,7 @@ header img{
     height: 72px
 }
 
+
 .h3{
     display: flex;
     justify-content: space-between;
@@ -194,6 +195,8 @@ article{
     background: linear-gradient(to bottom, #0d1422, #19202d);
 }
 
+
+
 .services-cards{
     display: -ms-grid;
     display: grid;
@@ -242,6 +245,13 @@ h5{
     margin: 0 60px;
     width: 78px;
 }
+
+.noqte img{
+    margin: 0 130px;
+    width: 78px;
+    padding: 0 0 28px 0;
+}
+
 
 .card-right article{
     padding: 14px;
@@ -506,6 +516,8 @@ h6{
         width: 78px;
     }
 
+    
+
     .introduction{
         display: flex;
     }
@@ -544,6 +556,10 @@ h6{
     .button{
         background-color: #3A68B8;
         margin: 0 -7px;
+    }
+    .services-cards .noqte{
+        margin: 0 240px;
+        width: 78px;
     }
 
 }
@@ -697,6 +713,10 @@ h6{
         font-weight: 600;
         font-size: 22px;
         align-items: center;
+    }
+    .services-cards .noqte{
+        margin: 0 450px;
+        width: 78px;
     }
 
 }
