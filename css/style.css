@@ -290,9 +290,9 @@ h6{
     flex-direction: column;
 }
 
-.div img:nth-child(2),
-.div img:nth-child(3),
-.div img:nth-child(4){
+.div .logo:nth-child(2),
+.div .logo:nth-child(3),
+.div .logo:nth-child(4){
    display: none;
 }
 
@@ -512,7 +512,7 @@ h6{
         display: inline !important;
     }
     
-     .div img:nth-child(3){
+     .div .logo:nth-child(3){
         display: block ;
     }
     
@@ -552,7 +552,7 @@ h6{
         display: flex;
     }
 
-    .div img{
+    .div .logo{
         display: inline !important;
     }
 
