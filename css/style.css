@@ -22,6 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0px 4px -2px 0;
+    
 }
 
 
@@ -207,7 +208,7 @@ h5{
 }
 
 .noqte img{
-    margin: 0 130px;
+    margin: 0px -398px;
     width: 78px;
     padding: 0 0 28px 0;
 }
@@ -301,10 +302,12 @@ h6{
 .share{
     max-width: 100%;
     background-color: #08101e;
-   
-  
 }
 
+header{
+    margin: 0 0 0 0;
+    background: linear-gradient(to bottom ,#0a111e ,#0b1320);
+}
 
 /* TODO media hisseleri */
 
@@ -357,6 +360,10 @@ h6{
         justify-content: space-between;
       
     }
+    header{
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
+    }
 
 }
 
@@ -392,6 +399,10 @@ h6{
         margin: 0 530px;
         width: 78px;
     }
+    header{
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
+    }
 
 
 }
@@ -425,8 +436,12 @@ h6{
     }
 
     .services-cards .noqte{
-        margin: 0 530px;
+        margin: 0 0 10px 700px;
         width: 78px;
+    }
+    header{
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
     }
 
 
@@ -435,6 +450,7 @@ h6{
 @media(min-width:768px){
     .parentdiv{
         max-width: 100%;
+        
         background-color: #08101e;
     }
 
@@ -452,7 +468,7 @@ h6{
     }
 
     .share{
-        padding: 86px 29px;
+        padding: 86px 87px;
         display: flex;
         justify-content: space-between;
         max-width: 720px;
@@ -475,6 +491,7 @@ h6{
 
     header nav{
         display: block;
+        
     }
 
     .logoipsumlar{
@@ -594,11 +611,12 @@ h6{
     }
 
     header{
-        margin: 0px 38px 0px 34px;
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
     }
 
     .services-cards .noqte{
-        margin: 20px 20px 20px 20px;
+        margin: 0 0 10px 250px;
         width: 78px;
       
     }
@@ -609,8 +627,6 @@ h6{
     }
 
 }
-
-
 
 @media(min-width:992px){
     .parentdiv{
@@ -696,7 +712,7 @@ h6{
     }
 
     .intro-section .div-right{
-        padding: 231px 0px;
+        padding: 121px 0 269px 0;
     }
 
     .intro-section .div-left{
@@ -726,7 +742,7 @@ h6{
 
     .share-section .left-side{
         padding: 92px 0;
-        margin: 0 45px;
+        margin: 0 -23px;
     }
 
     .share-section .right-side{
@@ -741,7 +757,7 @@ h6{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         font-size: 10px;
-        margin-top: 164px;
+        margin-top: -100px;
         margin-left: -21px;
         text-align: center;
     }
@@ -768,6 +784,7 @@ h6{
         align-items: center;
         margin-top: 0 auto; 
         border-radius: 5px;
+        margin: 0 84px 0 0;
     }
 
     header img{
@@ -782,14 +799,20 @@ h6{
         font-weight: 600;
         font-size: 22px;
         align-items: center;
+        margin: 13px 0 4px 29px;
     }
+
     .services-cards .noqte{
-        margin: 321px 0 0 -743px;
-    width: 78px;
-}
-}
+        margin: 0 0 10px 570px;
+        width: 78px;
+    }
 
+    header{
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
+    }
 
+}
 
 @media(min-width:1200px){
     .parentdiv{
@@ -807,8 +830,23 @@ h6{
         background-color: #08101e;
     }
     .services-cards .noqte{
-        margin: 321px 0 0 -743px;
+        margin: 0 0 10px 570px;
         width: 78px;
+    }
+
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        color: #3A68B8;
+        font-weight: 600;
+        font-size: 22px;
+        align-items: center;
+        margin: 13px 0 4px 29px;
+    }
+
+     header{
+        margin: 0 0 0 0;
+        background: linear-gradient(to bottom ,#0a111e ,#0b1320);
     }
 
 
